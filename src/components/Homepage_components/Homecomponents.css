@@ -1,0 +1,111 @@
+.sqpQuestionHeading{
+
+    margin: 3px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.sqpAnswers{
+    margin: 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.line{
+
+    padding:1px 30px;
+    background-color:#C0C0C0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.subscript{
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.questiontextbox{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-size: 24px;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;
+    
+}
+
+.questiontextbox:focus{
+   outline: white;
+   background-color: white;
+}
+
+.addquestionsubscript{
+    font-size: 15px;
+    color: grey;
+}
+
+.modalbox{
+    border-radius: 60px;
+    margin-top: 50px;
+}
+
+.modalbutton{
+  
+  padding: 5px 40px;
+  font-weight: 600;
+  border-radius: 15px;
+  background-color: rgb(139, 136, 136);
+  border:rgb(139, 136, 136) ;
+}
+
+.modalbutton:focus{
+    outline: none;
+}
+
+.questionbox{
+    margin-left: 20px;
+}
+
+.answertextbox{
+    border: 1px solid silver;
+    width: 650px;
+    height: 90px;
+}
+
+
+.answerbox{
+    margin-top: 15px;
+    background-color: rgb(112, 112, 112);
+    width: 650px;
+    height: 200px;
+    border: 1px solid silver;
+}
+
+.answertextboxheader{
+   margin-bottom: -1px;
+    height: 50px;
+    background-color:rgb(223, 219, 219);
+    font-size: 20px;
+}
+
+.answertextboxheadercontent{
+    padding: 10px 10px ;
+    margin-bottom: -10px;
+}
+
+.answertextboxfooter{
+    background-color:rgb(243, 243, 243);
+    height: 60px;
+    margin-top: -5px;
+}
+
+.answertextboxfootercontent{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+}
